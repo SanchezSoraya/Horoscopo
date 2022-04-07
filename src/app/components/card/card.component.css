@@ -1,0 +1,12 @@
+.imgcard {
+    /* position: relative; */
+    margin: 25px 0;
+    width: auto;
+    height: 200px;
+    box-shadow: 1px 3px 18px 5px #000000;
+    padding: 0;
+}
+
+.imgcard:hover {
+    transform: scale(1.2, 1.2);
+}

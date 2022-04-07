@@ -1,6 +1,6 @@
 <div class="m-0 row justify-content-center">
-    <div class="card m-4" style="width:500px; height:500px">
-        <p>horoscopo works!</p>
+    <div class="card m-4" style="width:600px; height:530px">
+        <h2 class="text-center">horoscopo</h2>
         <!--<app-card class="m-0 row justify-content-center"></app-card>-->
 
         <div class="btn-group">
@@ -8,20 +8,20 @@
             Buscar
         </button>
             <ul class="dropdown-menu dropdown-menu-lg-end">
-                <li><button class="dropdown-item" type="button">Null</button></li>
-                <li><button class="dropdown-item" type="button">January</button></li>
-                <li><button class="dropdown-item" type="button">February</button></li>
-                <li><button class="dropdown-item" type="button">March</button></li>
-                <li><button class="dropdown-item" type="button">April</button></li>
-                <li><button class="dropdown-item" type="button">May</button></li>
-                <li><button class="dropdown-item" type="button">June</button></li>
-                <li><button class="dropdown-item" type="button">July</button></li>
-                <li><button class="dropdown-item" type="button">August</button></li>
-                <li><button class="dropdown-item" type="button">September</button></li>
-                <li><button class="dropdown-item" type="button">October</button></li>
-                <li><button class="dropdown-item" type="button">November</button></li>
-                <li><button class="dropdown-item" type="button">December</button></li>
+                <li><button class="dropdown-item" type="button" (click)="changeHoroscopoSelected(0)">January</button></li>
+                <li><button class="dropdown-item" type="button" (click)="changeHoroscopoSelected(1)">February</button></li>
+                <li><button class="dropdown-item" type="button" (click)="changeHoroscopoSelected(2)">March</button></li>
+                <li><button class="dropdown-item" type="button" (click)="changeHoroscopoSelected(3)">April</button></li>
+                <li><button class="dropdown-item" type="button" (click)="changeHoroscopoSelected(4)">May</button></li>
+                <li><button class="dropdown-item" type="button" (click)="changeHoroscopoSelected(5)">June</button></li>
+                <li><button class="dropdown-item" type="button" (click)="changeHoroscopoSelected(6)">July</button></li>
+                <li><button class="dropdown-item" type="button" (click)="changeHoroscopoSelected(7)">August</button></li>
+                <li><button class="dropdown-item" type="button" (click)="changeHoroscopoSelected(8)">September</button></li>
+                <li><button class="dropdown-item" type="button" (click)="changeHoroscopoSelected(9)">October</button></li>
+                <li><button class="dropdown-item" type="button" (click)="changeHoroscopoSelected(10)">November</button></li>
+                <li><button class="dropdown-item" type="button" (click)="changeHoroscopoSelected(11)">December</button></li>
             </ul>
         </div>
+        <app-card [infoMonth]="horoscopoSelected"></app-card>
     </div>
 </div>

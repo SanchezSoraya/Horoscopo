@@ -1,5 +1,29 @@
-        /* You can add global styles to this file, and also import other style files */
-        
-        body {
-            background-color: black;
-        }
+    /* You can add global styles to this file, and also import other style files */
+    
+    body {
+        background-color: black;
+    }
+    
+    p {
+        text-align: justify;
+        font-size: 13px;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .title-welcome {
+        margin-top: 25px;
+        font-size: 27px;
+        text-align: center;
+        color: white;
+    }
+    
+    @font-face {
+        font-family: rubikBubbles;
+        src: url(assets/fonts/RubikBubbles-Regular.ttf) format("rubikBubbles");
+    }
+    
+    .font-rubik {
+        font-family: 'rubikBubbles', 'Courier New', Courier, monospace;
+        font-weight: bolder;
+    }
